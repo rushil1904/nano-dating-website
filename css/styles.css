@@ -323,7 +323,7 @@ nav {
 header {
   min-height: 100vh;
   background: linear-gradient(rgb(238, 203, 88), rgba(0, 0, 0, 0.7)),
-    url(/Users/rushil/Public/Rushil/projects/nano_dating/img/background.jpg) center/cover no-repeat;
+    url(https://raw.githubusercontent.com/rushil1904/nano-dating-website/main/img/background.jpg?token=AMHKWCIDRRW2QWXXYXPIMSDBSACD6) center/cover no-repeat;
 }
 .banner {
   min-height: 100vh;
