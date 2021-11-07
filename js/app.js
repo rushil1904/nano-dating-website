@@ -72,7 +72,3 @@ scrollLinks.forEach((link) => {
   });
 });
 // calculate heights
-
-function submitFunction() {
-  document.getElementById("contact").submit();
-}
