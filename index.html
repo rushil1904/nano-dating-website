@@ -95,52 +95,26 @@
         <h2>get a <span>date</span></h2>
       </div>
       <form name="contact" method="POST" data-netlify="true">
-        <div class="row">
-          <div class="input-group input-group-icon">
-            <input type="text" placeholder="Full Name"/>
-            <div class="input-icon"><i class="fa fa-user"></i></div>
-          </div>
-          <div class="input-group input-group-icon">
-            <input type="tel" placeholder="Phone"/>
-            <div class="input-icon"><i class="fa fa-mobile"></i></div>
-          </div>
-          <div class="input-group input-group-icon">
-            <input type="text" placeholder="Socials(Insta/FB/Twitter)"/>
-            <div class="input-icon"><i class="fa fa-hashtag"></i></div>
-          </div>
-          <div class="input-group input-group-icon">
-            <input type="text" placeholder="Location"/>
-            <div class="input-icon"><i class="fa fa-location-arrow"></i></div>
-          </div>
-          <div class="input-group input-group-icon">
-            <input type="text" placeholder="Occupation"/>
-            <div class="input-icon"><i class="fa fa-id-badge"></i></div>
-          </div>
-          <div class="input-group input-group-icon">
-            <input type="text" placeholder="Message"/>
-            <div class="input-icon"><i class="fa fa-align-justify"></i></div>
-          </div>
-          <div style="padding:  10px 10px; margin-bottom: 5px;">
-            <input type="file" id="files" placeholder="Your Photo" style="display:none;"/>
-            <label for="files">Upload your Photo</label>
-            <div class="input-icon"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-half">
-            <h4>Date of Birth</h4>
-            <div class="input-group">
-              <div class="col-third">
-                <input type="number" placeholder="DD"/>
-              </div>
-              <div class="col-third">
-                <input type="number" placeholder="MM"/>
-              </div>
-              <div class="col-third">
-                <input type="number" placeholder="YYYY"/>
-              </div>
-            </div>
-          </div>
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+      
           <div class="col-half">
             <h4>Gender</h4>
             <div class="input-group">

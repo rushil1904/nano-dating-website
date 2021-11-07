@@ -541,6 +541,7 @@ footer p {
   text-decoration: none;
   color: var(--clr-secondary);
   font-family: "Open Sans", sans-serif;;
+  font-weight: bold;
 }
 .actions:hover {
   background: rgb(243, 227, 4);
