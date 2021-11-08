@@ -380,6 +380,12 @@ footer p {
     padding: 20px;
   }
 }
+@media screen and (max-width: 340px) {
+  footer {
+    margin-top: 260px;
+    padding: 20px;
+  }
+}
 .top-link {
   font-size: 1.25rem;
   position: fixed;
@@ -550,8 +556,13 @@ footer p {
 }
 @media screen and (max-width: 450px) {
   .actions {
+    margin-top: 12px;
     background: rgb(243, 227, 4);
     color: #fff;
+    box-shadow: 0 0 5px rgb(253, 228, 4),
+              0 0 25px rgb(253, 228, 4),
+              0 0 50px rgb(253, 228, 4),
+              0 0 100px rgb(253, 228, 4);
   }
   .actions input {
     color: #fff;
