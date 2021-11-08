@@ -379,10 +379,6 @@ footer p {
     margin-top: 200px;
     padding: 20px;
   }
-  .actions input {
-    background-color: var(--clr-secondary);
-    color: #fff;
-  }
 }
 .top-link {
   font-size: 1.25rem;
@@ -551,6 +547,15 @@ footer p {
   color: var(--clr-secondary);
   font-family: "Open Sans", sans-serif;;
   font-weight: bold;
+}
+@media screen and (max-width: 450px) {
+  .actions {
+    background: rgb(243, 227, 4);
+    color: #fff;
+  }
+  .actions input {
+    color: #fff;
+  }
 }
 .actions:hover {
   background: rgb(243, 227, 4);
