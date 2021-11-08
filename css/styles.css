@@ -374,7 +374,15 @@ footer p {
   letter-spacing: var(--spacing);
   margin-bottom: 0;
 }
+@media screen and (max-width: 450px) {
+  footer {
+    margin-top: 180px;
+    padding: 20px;
+  }
+  #tours {
 
+  }
+}
 .top-link {
   font-size: 1.25rem;
   position: fixed;
@@ -829,4 +837,3 @@ select option {
     padding-right: 0;
   }
 }
-
