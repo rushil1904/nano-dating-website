@@ -418,6 +418,15 @@ footer p {
     transform: scale(1);
   }
 }
+/* About Section */
+#about {
+  padding: 2.5rem 0;
+}
+.about {
+  padding: 2rem;
+  font-size: 1.25rem;
+}
+
  /* Services Section */
  #services {
   display: flex;
