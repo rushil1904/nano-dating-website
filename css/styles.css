@@ -489,6 +489,9 @@ footer p {
 .services__card h2 {
   text-align: center;
 }
+.services__card h2::first-letter{
+  color:rgb(255, 230, 0);
+}
 
 .services__card p {
   text-align: center;
