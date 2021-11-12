@@ -357,7 +357,7 @@ header {
 }
 #about,
 #testimonials,
-#tours {
+#formdate {
   height: 80vh;
 }
 #testimonials {
@@ -537,7 +537,7 @@ footer p {
   }
 }
 /* 64ac15 */
-#tours {
+#formdate {
   padding: 1rem; 
 }
 .actions {
