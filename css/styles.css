@@ -497,7 +497,8 @@ footer p {
   text-align: center;
   margin-top: 24px;
   font-size: 20px;
-  color: #fff;
+  color: rgb(0, 0, 0, 0.658);
+  font-weight: bold;
 }
 
 .testimonials__btn {
