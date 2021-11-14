@@ -424,7 +424,7 @@ footer p {
 }
 .about {
   padding: 2rem;
-  font-size: 1.25rem;
+  font-size: 1.30rem;
 }
 
  /* testimonials Section */
@@ -497,7 +497,7 @@ footer p {
   text-align: center;
   margin-top: 24px;
   font-size: 20px;
-  color: rgb(0, 0, 0, 0.658);
+  color: rgba(2, 2, 2, 0.384);
   font-weight: bold;
 }
 
