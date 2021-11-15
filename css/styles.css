@@ -435,7 +435,10 @@ blockquote {
   color: rgb(97, 125, 152);
   text-align: center;
 }
-@media screen and (max-width: 440px) {
+.monitor {
+  visibility: hidden;
+}
+@media screen and (max-width: 607px) {
   .about {
     font-size: 1.15rem;
   }
@@ -463,6 +466,14 @@ blockquote {
   }
   blockquote {
     font-size: 1rem;
+  }
+}
+@media screen and (min-width: 750px) {
+  .monitor {
+    visibility: visible;
+    padding: 2rem;
+    font-size: 1.5rem;
+    display: flex;
   }
 }
  /* testimonials Section */
