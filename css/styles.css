@@ -468,7 +468,7 @@ blockquote {
     font-size: 1rem;
   }
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 760px) {
   .monitor {
     visibility: visible;
     padding: 2rem;
