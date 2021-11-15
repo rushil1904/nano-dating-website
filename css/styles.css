@@ -428,7 +428,6 @@ footer p {
   padding: 2rem;
   font-size: 1.30rem;
   display: flex;
-  text-align: center;
 }
 blockquote {
   font-family: Snell Roundhand, cursive;
@@ -442,6 +441,28 @@ blockquote {
   }
   blockquote {
     font-size: 1.15rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .about {
+    font-size: 1.05rem;
+    margin-top: 0;
+  }
+  blockquote {
+    font-size: 1.05rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .title h2 {
+    margin-bottom: 0;
+  }
+  .about {
+    font-size: 1rem;
+    margin-top: 0;
+    padding: 0;
+  }
+  blockquote {
+    font-size: 1rem;
   }
 }
  /* testimonials Section */
