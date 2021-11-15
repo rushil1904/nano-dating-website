@@ -449,6 +449,8 @@ blockquote {
     margin-bottom: 0;
   }
   blockquote {
+    margin-top: 0;
+    padding: 0 0.5rem;
     font-size: 1.15rem;
   }
 }
@@ -463,7 +465,7 @@ blockquote {
   blockquote {
     margin-top: 0;
     font-size: 1.05rem;
-    padding: 0;
+    padding: 0 0.15rem;
   }
 }
 @media screen and (max-width: 350px) {
@@ -477,6 +479,7 @@ blockquote {
   }
   blockquote {
     font-size: 1rem;
+    padding: 0.25rem 0.15rem;
   }
 }
 @media screen and (min-width: 760px) {
