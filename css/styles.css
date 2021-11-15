@@ -47,6 +47,12 @@ ul {
 a {
   text-decoration: none;
 }
+blockquote {
+  font-family: Snell Roundhand, cursive;
+  font-size: 1.5rem;
+  padding: 2rem;
+  color: rgb(97, 125, 152);
+}
 img:not(.logo) {
   width: 100%;
 }
