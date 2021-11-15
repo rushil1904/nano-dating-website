@@ -431,6 +431,7 @@ footer p {
 }
 blockquote {
   font-family: Snell Roundhand, cursive;
+  padding: 2rem;
   font-size: 1.75rem;
   color: rgb(97, 125, 152);
   text-align: center;
