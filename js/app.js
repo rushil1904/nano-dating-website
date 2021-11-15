@@ -64,7 +64,7 @@ scrollLinks.forEach((link) => {
       position = position - navHeight;
     }
     if (!fixedNav && deviceWidth<440) {
-      position = position + navHeight + navHeight;
+      position = position + navHeight;
     }
     console.log(position)
     window.scrollTo({
