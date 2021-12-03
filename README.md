@@ -1,6 +1,3 @@
 # nano-dating-website
-Dating website made for Nano. 
 
-
-To Do:
-- Ex-boyfriends feedback form
+A fun side project in which I make a dating website. 
