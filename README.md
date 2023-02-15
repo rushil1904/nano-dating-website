@@ -2,4 +2,4 @@
 
 A fun side project. 
 
-Website: https://www.datenano.cf
+Website: https://datenano.netlify.app
